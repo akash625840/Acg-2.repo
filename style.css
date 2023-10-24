@@ -1,0 +1,503 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    width: 100%;
+    height: 100%;
+    background: #2D25A0;
+}
+.container{
+    width: 1160px;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 42px;
+    margin-left: 156px;
+}
+
+.menu-list{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+}
+
+.menu-list a{
+    text-decoration: none;
+    padding-left: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFF;
+}
+
+.main-btn{
+    padding-left: 156px;
+}
+
+.btn{
+    padding: 10px 24px;
+    background: #E02C6D;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+.main-banner{
+    margin-top: 330px;
+    margin-left: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-left h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    color: #FFF;
+    font-style: normal;
+    line-height: 80px;
+}
+
+.banner-right{
+    display: flex;
+    justify-content: center;
+}
+
+.banner-right img{
+    width: 388px;
+    height: 428px;
+    margin-left: 911px;
+    border-radius: 0px 100px 0px 0px;
+    border: 2px solid #FFF;
+}
+
+.banner-right-img-2{
+    width: 556.01px;
+    height: 438px;
+    margin-top: 276px;
+}
+
+#exprience{
+    margin-top: 85px;
+    padding: 15px;
+    padding-left: 280px;
+    
+}
+
+.exprience-all{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 474px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neymar-jr-img img{
+    width: 300px;
+    height: 256px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.exprience-neymar h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 10px;
+}
+
+.exprience-neymar p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.mein-messi{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.messi-img img{
+    width: 300px;
+    height: 256px;
+}
+
+.messi-pg h1{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-style: normal;
+}
+
+.messi-pg p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color:#6C6C6C;
+    text-align: center;
+}
+
+.ronaldo-img img{
+    width: 300px;
+    height: 256px;
+}
+
+.mein-ronaldo{
+    width: 330px;
+    height: 474px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 36px;
+}
+.rolando-pg h1{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rolando-pg p{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    font-style: normal;
+    color: #6C6C6C;
+}
+
+#section{
+    margin-top: 40px;
+    padding: 15px;
+    padding-left: 250px;
+}
+
+.mein-section{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 464px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mein-paulo-dybala{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.paulo-dybala-img img{
+    widows: 300px;
+    height: 256px;
+}
+
+.paulo-dybala-pg h1{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-style: normal;
+    color: #18191F;
+}
+
+.paulo-dybala-pg p{
+    width: 300px;
+    height: 104px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.mein-mesut-ozil{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.mesut-ozil-img img{
+    widows: 300px;
+    height: 256px;
+}
+
+.mesut-ozil-pg h1{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-style: normal;
+    color: #18191F;
+}
+
+.mesut-ozil-pg p{
+    width: 300px;
+    height: 104px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.mein-mauro-icardi{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.mauro-icardi-img img{
+    widows: 300px;
+    height: 256px;   
+}
+
+.mauro-icardi-pg h1{
+    margin-top: 10px;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    font-style: normal;
+    color: #18191F;
+}
+
+.mauro-icardi-pg p{
+    width: 300px;
+    height: 104px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+#footboll-section{
+    margin-top: 85px;
+    padding: 15px;
+    padding-left: 250px;
+}
+
+.mein-footbool-section{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 474px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mein-di-maria{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.di-maria-img img{
+    width: 300px;
+    height: 256px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.di-maria-pg h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 10px;
+}
+
+.di-maria-pg p{
+    width: 300px;
+    height: 104px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+.mein-kylian-mbappé{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.kylian-mbappé-img img{
+    width: 300px;
+    height: 256px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.kylian-mbappé-pg h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 10px;
+}
+
+.kylian-mbappé-pg p{
+    width: 300px;
+    height: 104px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+#last-section{
+    margin-top: 85px;
+    padding: 15px;
+    padding-left: 250px;
+}
+
+.mein-last-section{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 300px;
+    height: 474px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mein-harry-kane{
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 330px;
+    height: 474px;
+    margin-left: 36px;
+}
+
+.harry-kane-img img{
+    width: 300px;
+    height: 256px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.harry-kane-pg h1{
+    font-size: 28px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    color: #18191F;
+    margin-top: 10px;
+}
+
+.harry-kane-pg p{
+    width: 300px;
+    height: 104px;
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+#last-header{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 224px;
+}
+
+.left-banner h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 60px;
+    color: #0A0826;
+    padding-left: 250px;
+}
+
+.left-banner p{
+    width: 600px;
+    height: 113px;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #6C6C6C;
+    padding-left: 250px;
+}
+
+.mein-left-btn{
+    padding-left: 250px;
+    margin-top: 20px;
+}
+
+.left-btn{
+    padding: 10px 24px 10px 24px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    background: #E02C6D;
+}
+
+#logo-header{
+    display: flex;
+    padding-left: 550px;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.logo-img img{
+    display: flex;
+    padding-left: 730px;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.pg p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    display: flex;
+    padding-left: 705px;
+    align-items: center;
+    padding-top: 20px;
+}
